@@ -1,2 +1,5 @@
-# magento_cracker
-Magento v2 cracker
+# Magento v2 hash verifier
+python3 script to verify Magento v2 hashes appended with ":2" or ":3_" (which are argon2id hashes).
+
+Usage:
+- python3 magento_v2_argon2id.py -hash hashes.txt -wordlist wordlist.txt
