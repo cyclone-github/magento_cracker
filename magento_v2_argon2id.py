@@ -10,13 +10,13 @@ import re
 # example :3 hash:  ab5ebf8d273b085b6a60336198e0a5a2090fdc3e0606a678315c7274ab06e046:5PiKJRn28bBKoFMopMaaKuV47aJ6GzVg:3_32_2_67108864
 # example password: Password@
 
-# # original script by Plum
-# modified by cyclone with the following features:
+# # original script by Plum https://github.com/PlumLulz
+# modified by cyclone with https://github.com/cyclone-github/magento_cracker the following features:
 # added flag "-wordlist" so script can check hashes against a wordlist instead of one password
 # added flag "-hash" so script can check a hash list instead of one single hash
-# added ability to correctly check, parse & crack both :2 & :3 Magento hashes
+# added ability to correctly check, parse & crack both :2 & :3 Magento v2 hashes
 
-# version 0.2.2; 2023-04-06.1700
+# version 0.2.2; 2023-04-06.1800
 
 parser = argparse.ArgumentParser(description='Magento Argon2di hash verifier.')
 parser.add_argument('-hash', '--hash-file', help='path to file containing hashes', type=str, required=True)
