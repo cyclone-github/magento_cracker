@@ -1,5 +1,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cyclone-github&repo=magento_cracker&theme=gruvbox)](https://github.com/cyclone-github/)
 
+### NOTE: plum has released a Magento converter tool which allows Magento v2 & v3 hashes to be run as standard argon2id with jtr or argon_cracker: https://github.com/PlumLulz/magento_converter
+
 # Cyclone's Magento v2 Hash Cracker
 python3 script to verify Magento v2 hashes appended with ":2" or ":3_" (which are argon2id hashes).
 
